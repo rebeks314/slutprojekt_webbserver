@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 
+<?php
+include 'indexPhP.php';
+?>
+
 <html>
     <head>
         <title>Djurkostymer.com</title>
@@ -67,7 +71,7 @@
                     
                     <div id="omossliten">
                         
-                        <h1>Om oss</h1>
+                        <h1 id="omOssh1">Om oss</h1>
                         
                         <p>Denna sajt är gjord som ett slut projekt i webbutveckling 1 och där av är Djurkostymer.com ett påhittat företag.</p>
                         
