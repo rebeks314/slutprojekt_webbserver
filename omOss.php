@@ -71,7 +71,7 @@ include 'indexPhP.php';
                     
                     <div id="omossliten">
                         
-                        <h1 id="omOssh1">Om oss</h1>
+<!--                        <h1 id="omOssRubrik"></h1>-->
                         
                         <p>Denna sajt är gjord som ett slut projekt i webbutveckling 1 och där av är Djurkostymer.com ett påhittat företag.</p>
                         
@@ -174,11 +174,5 @@ include 'indexPhP.php';
     </body>
 </html>
 
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script> src="indexJS.js"</script>
