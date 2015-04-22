@@ -7,6 +7,12 @@ define("DB_NAME", "berzanhe_te12e_djurkostymer");
 
 $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8', DB_USER, DB_PASSWORD);
 
-$data=$stat->fetchAll;
+$sql = "SELECT * FROM omOss";
 
-echo jsonencode($data);
+$stmt = $dbh->prepare($sql);
+$stmt->execute();
+$data = $stmt->fetchAll();
+
+
+
+echo json_encode($data);

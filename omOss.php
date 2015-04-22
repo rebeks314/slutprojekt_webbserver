@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-<?php
-include 'indexPhP.php';
-?>
+
 
 <html>
     <head>
@@ -19,15 +17,15 @@ include 'indexPhP.php';
        <header>
                   
             <ul>
-                <li><a href="index.html">Butik</a></li>
+                <li><a href="index.php">Butik</a></li>
                 <li><a href="omOss.php">Om oss</a></li>
                 <li><a href="loggain.html">Logga in</a></li>
                 
             </ul>
              
             <div class="vänsterboxheader">
-              <a href="index.html">Djur-</a>
-                <a href="index.html">kostymer.com</a>
+              <a href="index.php">Djur-</a>
+                <a href="index.php">kostymer.com</a>
 
             </div>
                                                                       
@@ -71,54 +69,15 @@ include 'indexPhP.php';
                     
                     <div id="omossliten">
                         
-<!--                        <h1 id="omOssRubrik"></h1>-->
+                        <h1 id="omOssRubrik"></h1>
                         
-                        <p>Denna sajt är gjord som ett slut projekt i webbutveckling 1 och där av är Djurkostymer.com ett påhittat företag.</p>
+                        <p id="omOsstext1"></p>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p id="omOsstext2"></p>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p id="omOsstext3"></p>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident,
-                           sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p id="omOsstext4"></p>
                         
                     </div>
                     
@@ -175,4 +134,4 @@ include 'indexPhP.php';
 </html>
 
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script> src="indexJS.js"</script>
+<script src="indexJS.js"></script>
