@@ -25,6 +25,22 @@ $(document).ready(function() {
                 case "omOsstext4":
                     $('#omOsstext4').append(value.text);
                     break;
+
+                case "bildSpelBild1":
+                    $('#bildSpelBild1').attr("src", value.img);
+                    break;
+
+                case "bildSpelBild2":
+                    $('#bildSpelBild2').attr("src", value.img);
+                    break;
+
+                case "bildSpelBild3":
+                    $('#bildSpelBild3').attr("src", value.img);
+                    break;
+
+                case "bildSpelBild4":
+                    $('#bildSpelBild4').attr("src", value.img);
+                    break;
             }
 
 

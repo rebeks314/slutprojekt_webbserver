@@ -76,10 +76,10 @@
                 <div id="Ruta1" class="shadow">
 
                     <div class="slideshow">
-                        <img src="img/bildspelvuxna.jpg" width="900" height="440" alt="" />
-                        <img src="img/bildspelhund.jpg" width="900" height="440" alt="" />
-                        <img src="img/bildspelvuxna2.jpg" width="900" height="440" alt=""/>
-                        <img src="img/bildspeltacohund.jpg" width="900" height="440" alt=""/>		
+                        <img id="bildSpelBild1" src="" width="900" height="440" alt="" />
+                        <img id="bildSpelBild2" src="" width="900" height="440" alt="" />
+                        <img id="bildSpelBild3" src="" width="900" height="440" alt=""/>
+                        <img id="bildSpelBild4" src="" width="900" height="440" alt=""/>		
                     </div>
 
                 </div>
