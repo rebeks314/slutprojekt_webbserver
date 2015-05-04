@@ -6,6 +6,8 @@ $(document).ready(function() {
 
             switch (value.id) {
 
+//                omoss sida
+
                 case "omOssRubrik":
                     $('#omOssRubrik').append(value.text);
                     break;
@@ -26,6 +28,30 @@ $(document).ready(function() {
                     $('#omOsstext4').append(value.text);
                     break;
 
+//                    kundservice sida
+
+                case "KundservisRubrik":
+                    $('#KundservisRubrik').append(value.text);
+                    break;
+
+                case "KundserviceText1":
+                    $('#KundserviceText1').append(value.text);
+                    break;
+
+                case "KundserviceText2":
+                    $('#KundserviceText2').append(value.text);
+                    break;
+
+                case "KundserviceText3":
+                    $('#KundserviceText3').append(value.text);
+                    break;
+                    
+                    case "KundserviceRubrik1":
+                    $('#KundserviceRubrik1').append(value.text);
+                    break;
+
+//                     index sida
+
                 case "bildSpelBild1":
                     $('#bildSpelBild1').attr("src", value.img);
                     break;
@@ -40,6 +66,18 @@ $(document).ready(function() {
 
                 case "bildSpelBild4":
                     $('#bildSpelBild4').attr("src", value.img);
+                    break;
+
+                case "treBoxBild1":
+                    $('#treBoxBild1').attr("src", value.img);
+                    break;
+
+                case "treBoxBild2":
+                    $('#treBoxBild2').attr("src", value.img);
+                    break;
+
+                case "treBoxBild3":
+                    $('#treBoxBild3').attr("src", value.img);
                     break;
             }
 

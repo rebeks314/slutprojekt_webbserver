@@ -94,9 +94,9 @@
                         <h3>Information</h3>
 
                         <ul>  
-                            <li><a href="omoss.html">Om oss</a></li>
-                            <li><a href="kontaktkund.html">Kontakt oss</a></li>
-                            <li><a href="kontaktkund.html">Kundservis</a></li>
+                            <li><a href="omoss.php">Om oss</a></li>
+                            <li><a href="kontaktkund.php">Kontakt oss</a></li>
+                            <li><a href="kontaktkund.php">Kundservis</a></li>
                         </ul> 
                     </div>
 

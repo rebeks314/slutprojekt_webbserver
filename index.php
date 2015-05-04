@@ -94,7 +94,7 @@
 
                         <div class="treboxliten">
 
-                            <img src="img/killehund.jpg" width="270" height="430" alt=""/>
+                            <img id="treBoxBild1" src="" width="270" height="430" alt=""/>
 
                         </div>
 
@@ -104,7 +104,7 @@
 
                         <div class="treboxliten">
 
-                            <img src="img/hundyoda2.jpg" width="270" height="430" alt=""/>
+                            <img id="treBoxBild2" src="" width="270" height="430" alt=""/>
 
                         </div>
 
@@ -114,7 +114,7 @@
 
                         <div class="treboxliten">
 
-                            <img src="img/barnhund2.jpg" width="270" height="430" alt=""/>
+                            <img id="treBoxBild3" src="" width="270" height="430" alt=""/>
 
                         </div>
 
@@ -133,9 +133,9 @@
                         <h3>Information</h3>
 
                         <ul>  
-                            <li><a href="omoss.html">Om oss</a></li>
-                            <li><a href="kontaktkund.html">Kontakt oss</a></li>
-                            <li><a href="kontaktkund.html">Kundservis</a></li>
+                            <li><a href="omoss.php">Om oss</a></li>
+                            <li><a href="kontaktkund.php">Kontakt oss</a></li>
+                            <li><a href="kontaktkund.php">Kundservis</a></li>
                         </ul> 
                     </div>
 
@@ -170,7 +170,7 @@
         </div>
 
         <!--include jQuery library--> 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <!--include Cycle plugin--> 
         <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
         <script type="text/javascript">
@@ -180,7 +180,7 @@
                 });
             });
         </script>
-        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
         <script src="indexJS.js"></script>
 
     </body>   
