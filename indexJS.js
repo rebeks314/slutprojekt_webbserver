@@ -16,18 +16,6 @@ $(document).ready(function() {
                     $('#omOsstext1').append(value.text);
                     break;
 
-                case "omOsstext2":
-                    $('#omOsstext2').append(value.text);
-                    break;
-
-                case "omOsstext3":
-                    $('#omOsstext3').append(value.text);
-                    break;
-
-                case "omOsstext4":
-                    $('#omOsstext4').append(value.text);
-                    break;
-
 //                    kundservice sida
 
                 case "KundservisRubrik":
@@ -45,9 +33,21 @@ $(document).ready(function() {
                 case "KundserviceText3":
                     $('#KundserviceText3').append(value.text);
                     break;
-                    
-                    case "KundserviceRubrik1":
-                    $('#KundserviceRubrik1').append(value.text);
+
+                case "KontaktUppgifterRubrik":
+                    $('#KontaktUppgifterRubrik').append(value.text);
+                    break;
+
+                case "KontaktUppgifterText1":
+                    $('#KontaktUppgifterText1').append(value.text);
+                    break;
+
+                case "KontaktUppgifterText2":
+                    $('#KontaktUppgifterText2').append(value.text);
+                    break;
+
+                case "KontaktUppgifterText3":
+                    $('#KontaktUppgifterText3').append(value.text);
                     break;
 
 //                     index sida
@@ -87,4 +87,14 @@ $(document).ready(function() {
 
         });
     });
+    
+    $(".btn-Redigera").click(function() {
+        $(".pop-upOmOss").show();
+    });
+
+//    $(".btn-Redigera").click(function() {
+//        $(".pop-upOmOss").hide();
+//    });
+    
+    
 });

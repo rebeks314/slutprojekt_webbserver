@@ -297,3 +297,34 @@ header ul li a{
     font-size: 12px;
     color: gray;
 }
+
+/*saker*/
+
+.btn-Redigera{
+    
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    
+}
+
+.pop-upOmOss{
+    
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    margin: 0 auto;
+    z-index: 100;
+    display: none;
+    
+}
+
+.pop-upOmOss2{
+    
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    
+}

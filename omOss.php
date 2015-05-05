@@ -14,73 +14,69 @@
 
     <body>
 
-       <header>
-                  
+        <header>
+
             <ul>
                 <li><a href="index.php">Butik</a></li>
                 <li><a href="omOss.php">Om oss</a></li>
                 <li><a href="loggain.html">Logga in</a></li>
-                
+
             </ul>
-             
+
             <div class="vänsterboxheader">
-              <a href="index.php">Djur-</a>
+                <a href="index.php">Djur-</a>
                 <a href="index.php">kostymer.com</a>
 
             </div>
-                                                                      
+
         </header>
 
         <div id="wrapper">
 
-        <div id="nav">
-                
+            <div id="nav">
+
                 <button id="sök" type="button">Sök</button> 
                 <input id="mysearch" type="search"/>
-                
+
                 <div id="navproduktruta">
                     <h3>Produkter</h3>
                 </div>
-                
-        <nav class="main-nav">
-            <ul>
-                  <li><a href="Vuxna.html">Vuxna</a>
-                   <ul>
-                        <li><a href="#">Kille</a></li>
-                         <li><a href="#">Tjej</a></li>
-                      </ul>
-                  </li>               
-                  <li><a href="Barn.html">Barn</a>
-                   <ul>
-                        <li><a href="#">Kille</a></li>
-                         <li><a href="#">Tjej</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="hund1.html">Hund</a></li>
-                   <li><a href="Katt.html">Katt</a></li>                  
-            </ul>
-        </nav>
-           
-         </div>
-            
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="Vuxna.html">Vuxna</a>
+                            <ul>
+                                <li><a href="#">Kille</a></li>
+                                <li><a href="#">Tjej</a></li>
+                            </ul>
+                        </li>               
+                        <li><a href="Barn.html">Barn</a>
+                            <ul>
+                                <li><a href="#">Kille</a></li>
+                                <li><a href="#">Tjej</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="hund1.html">Hund</a></li>
+                        <li><a href="Katt.html">Katt</a></li>                  
+                    </ul>
+                </nav>
+
+            </div>
+
             <div id="sectionruta">
-                
+
                 <div id="omossram" class="shadow">
-                    
+
                     <div id="omossliten">
-                        
+
                         <h1 id="omOssRubrik"></h1>
-                        
-                        <p id="omOsstext1"></p>
-                        
-                        <p id="omOsstext2"></p>
-                        
-                        <p id="omOsstext3"></p>
-                        
-                        <p id="omOsstext4"></p>
-                        
+
+                        <p id="omOsstext1"></p>                       
+
+                        <input type="submit" name="Redigera" value="Redigera" class="btn-Redigera">
+
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -129,6 +125,23 @@
                 </div>
             </div>            
         </div>       
+
+
+        <div class="pop-upOmOss">
+
+            <div class="pop-upOmOss2">
+                <form action="demo_form.asp" id="usrform">
+                Rubrik: <input type="text" name="usrname">               
+                <br>
+                <br>
+                Text: <textarea rows="4" cols="50" name="comment" form="text"></textarea>
+                <br>
+                <br>
+                <input type="submit">
+                </form>
+            </div>
+
+        </div>
 
     </body>
 </html>

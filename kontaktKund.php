@@ -69,10 +69,10 @@
 
                         <div id="sectionvlilitenv">
 
-                            <h1 id="KundserviceRubrik1"></h1>
-                            <p id="KundserviceText1"></p>
-                            <p id="KundserviceText2"></p>
-                            <p id="KundserviceText3"></p>
+                            <h1 id="KontaktUppgifterRubrik"></h1>
+                            <p id="KontaktUppgifterText1"></p>
+                            <p id="KontaktUppgifterText2"></p>
+                            <p id="KontaktUppgifterText3"></p>
 
                         </div>
 
