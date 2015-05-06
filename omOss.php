@@ -130,15 +130,16 @@
         <div class="pop-upOmOss">
 
             <div class="pop-upOmOss2">
-                <form action="demo_form.asp" id="usrform">
-                Rubrik: <input type="text" name="usrname">               
+                <form method="POST" action="omOssSave.php" id="usrform">
+                    <input type="hidden" value="omOssRubrik" name="id">
+                    Rubrik: <input type="text" id="omOssRubrikInput" name="text" value="staaart">      <input id="skickaVarde" type="submit"> </form>         
                 <br>
                 <br>
-                Text: <textarea rows="4" cols="50" name="comment" form="text"></textarea>
+                Text: <textarea rows="4" cols="50"  name="text" form="text" id="omOssTextInput" ></textarea>
                 <br>
                 <br>
-                <input type="submit">
-                </form>
+                
+               
             </div>
 
         </div>

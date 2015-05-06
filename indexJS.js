@@ -10,10 +10,12 @@ $(document).ready(function() {
 
                 case "omOssRubrik":
                     $('#omOssRubrik').append(value.text);
+                    $('#omOssRubrikInput').val(value.text);
                     break;
 
                 case "omOsstext1":
                     $('#omOsstext1').append(value.text);
+                    $('#omOssTextInput').val(value.text);
                     break;
 
 //                    kundservice sida
