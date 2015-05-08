@@ -14,9 +14,11 @@ $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8
     $stmt->execute();
 
 
+
 //$stmt = $dbh->prepare($sql);
 //$stmt->execute();
 //$data = $stmt->fetchAll();
 
-var_dump($_POST);
+//var_dump($_POST);
+    header('location:omOss.php');
 

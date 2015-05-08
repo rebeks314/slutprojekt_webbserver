@@ -132,14 +132,20 @@
             <div class="pop-upOmOss2">
                 <form method="POST" action="omOssSave.php" id="usrform">
                     <input type="hidden" value="omOssRubrik" name="id">
-                    Rubrik: <input type="text" id="omOssRubrikInput" name="text" value="staaart">      <input id="skickaVarde" type="submit"> </form>         
+                    Rubrik: <input type="text" id="omOssRubrikInput" name="text" value="staaart">
+                    <input id="skickaVarde" type="submit">
+                </form>         
                 <br>
                 <br>
-                Text: <textarea rows="4" cols="50"  name="text" form="text" id="omOssTextInput" ></textarea>
+                <form method="POST" action="omOssSave.php" id="usrform">
+                    <input type="hidden" value="omOsstext1" name="id">
+                Text: <textarea rows="4" cols="50"  name="text" id="omOssTextInput" ></textarea>
+                <input id="skickaVarde" type="submit">
+                </form>
                 <br>
                 <br>
-                
-               
+
+
             </div>
 
         </div>
