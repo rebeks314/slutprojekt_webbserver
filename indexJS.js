@@ -22,34 +22,32 @@ $(document).ready(function() {
 
                 case "KundservisRubrik":
                     $('#KundservisRubrik').append(value.text);
+
                     break;
 
                 case "KundserviceText1":
                     $('#KundserviceText1').append(value.text);
                     break;
-
-                case "KundserviceText2":
-                    $('#KundserviceText2').append(value.text);
-                    break;
-
-                case "KundserviceText3":
-                    $('#KundserviceText3').append(value.text);
-                    break;
-
+                    
                 case "KontaktUppgifterRubrik":
                     $('#KontaktUppgifterRubrik').append(value.text);
+                    $('#KontaktUppgifterRubrikInput').val(value.text);
                     break;
 
                 case "KontaktUppgifterText1":
                     $('#KontaktUppgifterText1').append(value.text);
+                    $('#KontaktUppgifterText1Input').val(value.text);
+
                     break;
 
                 case "KontaktUppgifterText2":
                     $('#KontaktUppgifterText2').append(value.text);
+                    $('#KontaktUppgifterText2Input').val(value.text);
                     break;
 
                 case "KontaktUppgifterText3":
                     $('#KontaktUppgifterText3').append(value.text);
+                    $('#KontaktUppgifterText3Input').val(value.text);
                     break;
 
 //                     index sida
@@ -89,14 +87,19 @@ $(document).ready(function() {
 
         });
     });
-    
+
     $(".btn-Redigera").click(function() {
         $(".pop-upOmOss").show();
     });
 
+    $(".btn-RedigeraKund").click(function() {
+        $(".pop-upKundservice").show();
+    });
+
+
 //    $(".btn-Redigera").click(function() {
 //        $(".pop-upOmOss").hide();
 //    });
-    
-    
+
+
 });
