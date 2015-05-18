@@ -89,7 +89,6 @@
                         <div id="sectionhgmlitenh">
 
                             <h1 id="KundservisRubrik"></h1>
-
                             <P id="KundserviceText1"></P>
                             
                             <input type="submit" name="Redigera" value="Redigera" class="btn-RedigeraKund">
@@ -176,15 +175,15 @@
 
             <div class="pop-upOmOss2">
                 <form method="POST" action="kontaktKundSave.php" id="usrform">
-                    <input type="hidden" value="kontaktKund" name="id">
-                    Rubrik: <input type="text" id="omOssRubrikInput" name="text" value="staaart">
+                    <input type="hidden" value="KundservisRubrik" name="id">
+                    Rubrik: <input type="text" id="KundservisRubrikInput" name="text" value="">
                     <input id="skickaVarde" type="submit">
                 </form>         
                 <br>
                 <br>
                 <form method="POST" action="kontaktKundSave.php" id="usrform">
-                    <input type="hidden" value="KontaktKund" name="id">
-                Text: <textarea rows="4" cols="50"  name="text" id="omOssTextInput" ></textarea>
+                    <input type="hidden" value="KundserviceText1" name="id">
+                Text: <textarea rows="4" cols="50"  name="text" id="KundserviceText1Input" ></textarea>
                 <input id="skickaVarde" type="submit">
                 </form>
                 <br>

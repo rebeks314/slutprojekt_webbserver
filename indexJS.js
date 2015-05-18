@@ -29,6 +29,8 @@ $(document).ready(function() {
                     $('#KundserviceText1').append(value.text);
                     break;
                     
+//                    kontakt Uppgifter
+                    
                 case "KontaktUppgifterRubrik":
                     $('#KontaktUppgifterRubrik').append(value.text);
                     $('#KontaktUppgifterRubrikInput').val(value.text);
@@ -95,11 +97,5 @@ $(document).ready(function() {
     $(".btn-RedigeraKund").click(function() {
         $(".pop-upKundservice").show();
     });
-
-
-//    $(".btn-Redigera").click(function() {
-//        $(".pop-upOmOss").hide();
-//    });
-
 
 });

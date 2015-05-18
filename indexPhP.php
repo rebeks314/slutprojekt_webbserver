@@ -9,12 +9,8 @@ $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8
 
 $sql = "SELECT * FROM omOss";
 
-
-
 $stmt = $dbh->prepare($sql);
 $stmt->execute();
 $data = $stmt->fetchAll();
-
-
 
 echo json_encode($data);

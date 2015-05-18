@@ -310,12 +310,16 @@ header ul li a{
 
 .pop-upOmOss{
     
-    height: 200px;
+    height: auto;
     width: 500px;
     background-color: red;
     margin: 0 auto;
     z-index: 100;
     display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
     
 }
 
