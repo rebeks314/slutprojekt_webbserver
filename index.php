@@ -60,7 +60,7 @@
                                 <li><a href="#">Tjej</a></li>
                             </ul>
                         </li>
-                        <li><a href="hund1.html">Hund</a></li>
+                        <li><a href="hund.php">Hund</a></li>
                         <li><a href="Katt.html">Katt</a></li>                  
                     </ul>
                 </nav>

@@ -22,15 +22,17 @@ $(document).ready(function() {
 
                 case "KundservisRubrik":
                     $('#KundservisRubrik').append(value.text);
+                    $('#KundservisRubrikInput').val(value.text);
 
                     break;
 
                 case "KundserviceText1":
                     $('#KundserviceText1').append(value.text);
+                    $('#KundserviceText1Input').val(value.text);
                     break;
-                    
+
 //                    kontakt Uppgifter
-                    
+
                 case "KontaktUppgifterRubrik":
                     $('#KontaktUppgifterRubrik').append(value.text);
                     $('#KontaktUppgifterRubrikInput').val(value.text);
@@ -81,6 +83,24 @@ $(document).ready(function() {
                 case "treBoxBild3":
                     $('#treBoxBild3').attr("src", value.img);
                     break;
+
+//                    hundsida
+
+                case "hundRuta1":
+                    $('#hundRuta1').append(value.text);
+                    $('#hundRuta1Input').val(value.text);
+                    break;
+                    
+                    case "hundRuta1Pris":
+                    $('#hundRuta1Pris').append(value.text);
+                    $('#hundRuta1PrisInput').val(value.text);
+                    break;
+                    
+                    case "hundRuta1Bild":
+                    $('#hundRuta1Bild').attr("src", value.img);
+                    break;
+
+
             }
 
 
@@ -96,6 +116,10 @@ $(document).ready(function() {
 
     $(".btn-RedigeraKund").click(function() {
         $(".pop-upKundservice").show();
+    });
+    
+    $(".btn-Redigera.Köp").click(function() {
+        $(".pop-upHundSuperman").show();
     });
 
 });
