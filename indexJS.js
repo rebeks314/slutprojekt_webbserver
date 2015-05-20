@@ -98,6 +98,52 @@ $(document).ready(function() {
                     
                     case "hundRuta1Bild":
                     $('#hundRuta1Bild').attr("src", value.img);
+                    $('#hundRuta1BildInput').val(value.img);
+                    break;
+                    
+                    case "hundRuta2":
+                    $('#hundRuta2').append(value.text);
+                    $('#hundRuta2Input').val(value.text);
+                    break;
+                    
+                    case "hundRuta2Pris":
+                    $('#hundRuta2Pris').append(value.text);
+                    $('#hundRuta2PrisInput').val(value.text);
+                    break;
+                    
+                    case "hundRuta2Bild":
+                    $('#hundRuta2Bild').attr("src", value.img);
+                    $('#hundRuta2BildInput').val(value.img);
+                    break;
+                    
+                    case "hundRuta3":
+                    $('#hundRuta3').append(value.text);
+                    $('#hundRuta3Input').val(value.text);
+                    break;
+                    
+                    case "hundRuta3Pris":
+                    $('#hundRuta3Pris').append(value.text);
+                    $('#hundRuta3PrisInput').val(value.text);
+                    break;
+                    
+                    case "hundRuta3Bild":
+                    $('#hundRuta3Bild').attr("src", value.img);
+                    $('#hundRuta3BildInput').val(value.img);
+                    break;
+                    
+                    case "hundRuta4":
+                    $('#hundRuta4').append(value.text);
+                    $('#hundRuta4Input').val(value.text);
+                    break;
+                    
+                    case "hundRuta4Pris":
+                    $('#hundRuta4Pris').append(value.text);
+                    $('#hundRuta4PrisInput').val(value.text);
+                    break;
+                    
+                    case "hundRuta4Bild":
+                    $('#hundRuta4Bild').attr("src", value.img);
+                    $('#hundRuta4BildInput').val(value.img);
                     break;
 
 
@@ -118,8 +164,20 @@ $(document).ready(function() {
         $(".pop-upKundservice").show();
     });
     
-    $(".btn-Redigera.Köp").click(function() {
-        $(".pop-upHundSuperman").show();
+    $(".btn-Redigera.Köp.hund1").click(function() {
+        $(".pop-upHundRuta1").show();
+    });
+    
+    $(".btn-Redigera.Köp.hund2").click(function() {
+        $(".pop-upHundRuta2").show();
+    });
+    
+    $(".btn-Redigera.Köp.hund3").click(function() {
+        $(".pop-upHundRuta3").show();
+    });
+    
+    $(".btn-Redigera.Köp.hund4").click(function() {
+        $(".pop-upHundRuta4").show();
     });
 
 });

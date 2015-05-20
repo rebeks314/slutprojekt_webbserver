@@ -332,11 +332,11 @@ header ul li a{
 
 /*saker*/
 
-.pop-upHundSuperman{
+.pop-upHundRuta{
     
     height: auto;
     width: 500px;
-    background-color: red;
+    background-color: plum;
     margin: 0 auto;
     z-index: 100;
     display: none;
@@ -344,6 +344,9 @@ header ul li a{
     top: 50%;
     left: 50%;
     margin-left: -250px;
+    box-shadow: 10px 10px 5px #888888;
+    outline: solid thin black;
+
     
 }
 

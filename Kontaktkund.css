@@ -45,7 +45,7 @@ header{
 }
 
 .vänsterboxheader a{
-    
+
     font-family: 'Amatic SC', cursive, Arial;
     font-size: 40px;
     margin-left: 5px;
@@ -107,7 +107,7 @@ header ul li a{
 }
 
 #navproduktruta{
-    
+
     width: 120px;
     height: 40px;
     float: left;
@@ -196,34 +196,34 @@ header ul li a{
 }
 
 #sectionruta{
-    
+
     overflow: auto;
 }
 
 /*sectionvänster*/
 
 #sectionvänster{
-  
-height: 700px;
-width: 480px;
-background-color: white;
-float: left;
+
+    height: 700px;
+    width: 480px;
+    background-color: white;
+    float: left;
 
 }
 
 #sectionloggin{
-    
-   height: 350px;
-   width: 440px;
-   background-color: #373737;
-   padding-top: 10px;
-   /*margin: 0 auto;*/
-   margin-top: 20px;
-   margin-left: 20px;
+
+    height: 350px;
+    width: 440px;
+    background-color: #373737;
+    padding-top: 10px;
+    /*margin: 0 auto;*/
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 #sectionvlilitenv{
-    
+
     height: 340px;
     width: 420px;
     background-color: white;
@@ -232,14 +232,14 @@ float: left;
 }
 
 #sectionvlilitenv h1{
-    
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 #sectionvlilitenv p{
-    
+
     padding-bottom: 10px;
     padding-left: 15px;
     font-size: 12px;
@@ -250,42 +250,42 @@ float: left;
 
 #sectionhöger{
 
-height: 700px;
-width: 480px;
-background-color: white;
-float: left; 
+    height: 700px;
+    width: 480px;
+    background-color: white;
+    float: left; 
 }
 
 #sectiongåmed{
-    
-   height:650px;
-   width: 440px;
-   background-color: #373737;
-   padding-top: 10px;
-   margin: 0 auto;
-   margin-top: 20px;
+
+    height:650px;
+    width: 440px;
+    background-color: #373737;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 #sectionhgmlitenh{
-    
+
     height: 640px;
     width: 420px;
     background-color: white;
     margin: 0 auto;
     outline: solid thin black;
-    
+
 }
 
 #sectionhgmlitenh h1{
- 
+
     padding-top: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
-   
+
 }
 
 #sectionhgmlitenh p{
-    
+
     padding-bottom: 15px;
     padding-left: 15px;
     font-size: 12px;
@@ -303,7 +303,7 @@ float: left;
 }
 
 #footerbox{
-    
+
     height: 100px;
     width: 920px;
     margin-left: 20px;
@@ -323,8 +323,8 @@ float: left;
 }
 
 .footertrebox ul li{
-    
-  list-style-type: none;  
+
+    list-style-type: none;  
 }
 
 .footertrebox a , p{
@@ -339,13 +339,13 @@ float: left;
     height: 100px;
     background-color: #373737;
     float: left;
-   
- 
+
+
 }
 
 .footertrebox1 ul li{
-    
-     list-style-type: none;   
+
+    list-style-type: none;   
 }
 
 .footertrebox1 a{  
@@ -357,29 +357,29 @@ float: left;
 /*saker*/
 
 .btn-Redigera{
-    
+
     float: right;
     margin-right: 100px;
     margin-top: 100px;
-    
+
 }
 
 .pop-upOmOss{
-    
+
     height: auto;
     width: 500px;
     background-color: red;
     margin: 0 auto;
     z-index: 100;
     display: none;
-    
+
 }
 
 .pop-upKundservice{
-    
+
     height: auto;
     width: 500px;
-    background-color: red;
+    background-color: plum;
     margin: 0 auto;
     z-index: 100;
     display: none;
@@ -387,14 +387,16 @@ float: left;
     top: 50%;
     left: 50%;
     margin-left: -250px;
-    
+    box-shadow: 10px 10px 5px #888888;
+    outline: solid thin black;
+
 }
 
 .pop-upOmOss{
-    
+
     height: auto;
     width: 500px;
-    background-color: red;
+    background-color: plum;
     margin: 0 auto;
     z-index: 100;
     display: none;
@@ -402,15 +404,17 @@ float: left;
     top: 50%;
     left: 50%;
     margin-left: -250px;
-    
+    box-shadow: 10px 10px 5px #888888;
+    outline: solid thin black;
+
 }
 
 .pop-upOmOss2{
-    
+
     height: auto;
     width: auto;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
-    
+
 }

@@ -42,20 +42,20 @@
 
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="Vuxna.html">Vuxna</a>
+                        <li><a href="Vuxna.php">Vuxna</a>
                             <ul>
                                 <li><a href="#">Kille</a></li>
                                 <li><a href="#">Tjej</a></li>
                             </ul>
                         </li>               
-                        <li><a href="Barn.html">Barn</a>
+                        <li><a href="Barn.php">Barn</a>
                             <ul>
                                 <li><a href="#">Kille</a></li>
                                 <li><a href="#">Tjej</a></li>
                             </ul>
                         </li>
-                        <li><a href="hund1.html">Hund</a></li>
-                        <li><a href="Katt.html">Katt</a></li>                  
+                        <li><a href="hund.php">Hund</a></li>
+                        <li><a href="Katt.php">Katt</a></li>                  
                     </ul>
                 </nav>
 

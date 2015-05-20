@@ -73,7 +73,7 @@
 
                             <img id="hundRuta1Bild" src="" width="270" height="370" />
 
-                            <h1 id="hundRuta1"><input type="submit" name="Redigera" value="Köp" class="btn-Redigera Köp"></h1>
+                            <h1 id="hundRuta1"><input type="submit" name="Redigera" value="Köp" class="btn-Redigera Köp hund1"></h1>
                             <p id="hundRuta1Pris"></p>
                         </div>
 
@@ -83,10 +83,10 @@
 
                         <div class="treboxliten">
 
-                            <img src="img/hund/hundapa.jpg" width="270" height="370" />
+                            <img id="hundRuta2Bild" src="" width="270" height="370" />
 
-                            <h1>Apa<button class="Köp" type="button">Köp</button></h1>
-                            <p>500 Sek</p>
+                            <h1 id="hundRuta2"><input type="submit" name="Redigera" value="Köp" class="btn-Redigera Köp hund2"></h1>
+                            <p id="hundRuta2Pris"></p>
 
 
 
@@ -97,11 +97,11 @@
                     <div class="trebox2 shadow">
 
                         <div class="treboxliten">
+                            
+                            <img id="hundRuta3Bild" src="" width="270" height="370" />
 
-                            <img src="img/hund/hundscoobydoo.jpg" width="270" height="370" />
-
-                            <h1>Scooby Doo<button class="Köp" type="button">Köp</button></h1>
-                            <p>899 Sek</p>
+                            <h1 id="hundRuta3"><input type="submit" name="Redigera" value="Köp" class="btn-Redigera Köp hund3"></h1>
+                            <p id="hundRuta3Pris"></p>
 
                         </div>
 
@@ -118,11 +118,11 @@
                     <div class="trebox1 shadow" >
 
                         <div class="treboxliten">
+                            
+                            <img id="hundRuta4Bild" src="" width="270" height="370" />
 
-                            <img src="img/hund/hundfågel.jpg" width="270" height="370" />
-
-                            <h1>Fågel<button class="Köp" type="button">Köp</button></h1>
-                            <p>650 Sek</p>
+                            <h1 id="hundRuta4"><input type="submit" name="Redigera" value="Köp" class="btn-Redigera Köp hund4"></h1>
+                            <p id="hundRuta4Pris"></p>
 
                         </div>
 
@@ -213,9 +213,9 @@
                         <h3>Information</h3>
 
                         <ul>  
-                            <li><a href="omoss.html">Om oss</a></li>
-                            <li><a href="kontaktkund.html">Kontakt oss</a></li>
-                            <li><a href="kontaktkund.html">Kundservis</a></li>
+                            <li><a href="omoss.php">Om oss</a></li>
+                            <li><a href="kontaktkund.php">Kontakt oss</a></li>
+                            <li><a href="kontaktkund.php">Kundservis</a></li>
                         </ul> 
                     </div>
 
@@ -235,8 +235,8 @@
 
                         <ul>
 
-                            <li><a href="loggain.html">Logga in</a></li>
-                            <li><a href="loggain.html">Sign up</a></li>
+                            <li><a href="loggain.php">Logga in</a></li>
+                            <li><a href="loggain.php">Sign up</a></li>
                             <li><a href="#">Hjälp</a></li>
 
                         </ul>
@@ -246,7 +246,9 @@
             </div>             
         </div>
         
-        <div class="pop-upHundSuperman">
+        <!--pop-up rutor-->
+        
+        <div class="pop-upHundRuta pop-upHundRuta1">
 
             <div class="pop-upOmOss2">
                 <form method="POST" action="hundSave.php" id="usrform">
@@ -266,6 +268,87 @@
                 <form method="POST" action="HundSave.php" id="usrform">
                     <input type="hidden" value="hundRuta1Bild" name="id">
                     Bild: <input type="text" id="hundRuta1BildInput" name="img" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>
+                <br>
+                <br>
+            </div>
+        </div>
+        
+        <div class="pop-upHundRuta pop-upHundRuta2">
+
+            <div class="pop-upOmOss2">
+                <form method="POST" action="hundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta2" name="id">
+                    Namn: <input type="text" id="hundRuta2Input" name="text" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>         
+                <br>
+                <br>
+                <form method="POST" action="hundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta2Pris" name="id">
+                    Pris: <input type="text" id="hundRuta2PrisInput" name="text" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>
+                <br>
+                <br>
+                <form method="POST" action="HundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta2Bild" name="id">
+                    Bild: <input type="text" id="hundRuta2BildInput" name="img" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>
+                <br>
+                <br>
+            </div>
+        </div>
+        
+        <div class="pop-upHundRuta pop-upHundRuta3">
+
+            <div class="pop-upOmOss2">
+                <form method="POST" action="hundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta3" name="id">
+                    Namn: <input type="text" id="hundRuta3Input" name="text" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>         
+                <br>
+                <br>
+                <form method="POST" action="hundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta3Pris" name="id">
+                    Pris: <input type="text" id="hundRuta3PrisInput" name="text" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>
+                <br>
+                <br>
+                <form method="POST" action="HundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta3Bild" name="id">
+                    Bild: <input type="text" id="hundRuta3BildInput" name="img" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>
+                <br>
+                <br>
+            </div>
+        </div>
+        
+        <div class="pop-upHundRuta pop-upHundRuta4">
+
+            <div class="pop-upOmOss2">
+                <form method="POST" action="hundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta4" name="id">
+                    Namn: <input type="text" id="hundRuta4Input" name="text" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>         
+                <br>
+                <br>
+                <form method="POST" action="hundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta4Pris" name="id">
+                    Pris: <input type="text" id="hundRuta4PrisInput" name="text" value="">
+                    <input id="skickaVarde" type="submit">
+                </form>
+                <br>
+                <br>
+                <form method="POST" action="HundSave.php" id="usrform">
+                    <input type="hidden" value="hundRuta4Bild" name="id">
+                    Bild: <input type="text" id="hundRuta4BildInput" name="img" value="">
                     <input id="skickaVarde" type="submit">
                 </form>
                 <br>

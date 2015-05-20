@@ -45,7 +45,7 @@ header{
 }
 
 .vänsterboxheader a{
-    
+
     font-family: 'Amatic SC', cursive, Arial;
     font-size: 40px;
     margin-left: 5px;
@@ -107,7 +107,7 @@ header ul li a{
 }
 
 #navproduktruta{
-    
+
     width: 120px;
     height: 40px;
     float: left;
@@ -196,7 +196,7 @@ header ul li a{
 }
 
 #sectionruta{
-    
+
     height: 700px;
     width: 960px;
     background-color: white;
@@ -204,17 +204,17 @@ header ul li a{
 }
 
 #omossram{
-    
-   height:650px;
-   width: 920px;
-   background-color: #373737;
-   margin: 0 auto;
-   margin-top: 20px;
-   padding-top: 10px;
+
+    height:650px;
+    width: 920px;
+    background-color: #373737;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
 }
 
 #omossliten{
-    
+
     height: 640px;
     width: 900px;
     background-color: white;
@@ -222,14 +222,14 @@ header ul li a{
 }
 
 #omossliten h1{
-    
+
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #omossliten p{
-    
+
     padding-bottom: 10px;
     padding-left: 15px;
     font-size: 12px;
@@ -247,7 +247,7 @@ header ul li a{
 }
 
 #footerbox{
-    
+
     height: 100px;
     width: 920px;
     margin-left: 20px;
@@ -267,8 +267,8 @@ header ul li a{
 }
 
 .footertrebox ul li{
-    
-  list-style-type: none;  
+
+    list-style-type: none;  
 }
 
 .footertrebox a , p{
@@ -283,13 +283,13 @@ header ul li a{
     height: 100px;
     background-color: #373737;
     float: left;
-   
- 
+
+
 }
 
 .footertrebox1 ul li{
-    
-     list-style-type: none;   
+
+    list-style-type: none;   
 }
 
 .footertrebox1 a{  
@@ -301,18 +301,18 @@ header ul li a{
 /*saker*/
 
 .btn-Redigera{
-    
+
     float: right;
     margin-right: 100px;
     margin-top: 100px;
-    
+
 }
 
 .pop-upOmOss{
-    
+
     height: auto;
     width: 500px;
-    background-color: red;
+    background-color: plum;
     margin: 0 auto;
     z-index: 100;
     display: none;
@@ -320,15 +320,17 @@ header ul li a{
     top: 50%;
     left: 50%;
     margin-left: -250px;
-    
+    box-shadow: 10px 10px 5px #888888;
+    outline: solid thin black;
+
 }
 
 .pop-upOmOss2{
-    
+
     height: auto;
     width: auto;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
-    
+
 }
